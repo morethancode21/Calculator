@@ -1,0 +1,52 @@
+html,
+body {
+    background: url(https://pbs.twimg.com/media/BrLCMuKCMAADbeR.jpg);
+    padding-top: 10px;
+}
+
+#calcOutput {
+    background-color: grey;
+    height: 75px;
+    width: 300px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 13px;
+}
+
+#calculator {
+    background-color: #CCCCCC;
+    width: 300px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#display {
+    font-size: 2em;
+}
+
+a {
+    margin: 5px;
+    width: 3vw;
+    height: 2.6vw;
+    background-color: grey;
+    color: black;
+}
+
+.bigButton {
+    width: 93px;
+}
+
+.btn:hover {
+    background-color: #006400;
+}
+
+.btn:active {
+    transform: translateY(6px);
+}
